@@ -22,7 +22,7 @@ while keeping_word.lower() == "yes":
 
     #Part 02: Displaying the numbers of tests and play again
     print(f"Number of tests: {try_number}")
-    keeping_word = input("Do you want to play again?: ")
+    keeping_word = input("Do you want to play again?(yes/no): ")
     magic_number = random.randint(1, 100)
 
 #Ending the game
